@@ -1,3 +1,6 @@
+# 採点ありがとうございます。
+# ネットの情報を見て変数を"number"に変えただけなの実力ではないです。
+# 自分で理解できている場所は"returnに入るまでです。
 def collatz(number):
     sequence = [number]
     while number != 1:

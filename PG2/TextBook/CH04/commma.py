@@ -1,5 +1,5 @@
 spam = ['apples', 'bananas', 'tofu', 'cats']
 
-# リスト内包表記を使って各要素にカンマを追加して出力
-output = ', '.join(spam)
+# 'and' を追加した文字列を作成
+output = ', '.join(spam[:-1]) + ', and ' + spam[-1]
 print(output)
